@@ -43,6 +43,7 @@ body{
 .wrap {
 	margin:0 auto;
 	width:1000px;
+<<<<<<< HEAD
 }
 header.top {
 	background-color:#066;
@@ -65,9 +66,8 @@ header h4 {
 h1.welcome {
 	font-family:'cfspaceship', sans-serif;
 	font-size:10rem;
-=======
-
-embed{
+}
+embed {
 	position: fixed;
 	width: 1000px;
 	height: 469px;
