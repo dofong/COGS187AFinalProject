@@ -1,0 +1,17 @@
+h1.title {
+    padding: 0px 0px 0px 6px;
+}
+
+h4.title {
+    padding: 0px 0px 3px 10px;
+}
+
+.pic{
+	max-width: 327px;
+	float: right;
+	padding: 0px 0px 0px 12px;
+}
+
+body{
+	background-color: #FDFDFD;
+}
