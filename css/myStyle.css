@@ -78,3 +78,8 @@ embed {
 	background:url(../img/frontbg.jpg);
 	background-size:cover;
 }
+.nav li {
+	font-size:2rem;
+	font-family:'exoblack',sans-serif;
+	text-transform:capitalize;
+}
