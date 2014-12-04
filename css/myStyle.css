@@ -1,9 +1,27 @@
+/* fonts imports */
+@import url('../fonts/cfspaceship/stylesheet.css'); /* 'cfspaceship' */
+@import url('../fonts/exo/exo-black/stylesheet.css'); /* 'exoblack' */
+@import url('../fonts/exo/exo-regular/stylesheet.css'); /* 'exoregular' */
+@import url('../fonts/exo/exo-thin/stylesheet.css'); /* 'exothin' */
+
+.wrap {
+	font-family:'exoregular',sans-serif;
+}
+.wrap p, .wrap li {
+	font-family:Arial,sans-serif;
+	line-height:2.2rem;
+	font-size:1.6rem;
+}
+
 h1.title {
     padding: 0px 0px 0px 6px;
+    font-family:'exoregular',sans-serif;
 }
 
 h4.title {
     padding: 0px 0px 3px 10px;
+    font-family:'exoregular',sans-serif;
+    color:#a1a1a1;
 }
 
 .pic{
@@ -14,4 +32,8 @@ h4.title {
 
 body{
 	background-color: #FDFDFD;
+}
+.wrap {
+	margin:0 auto;
+	width:1000px;
 }
