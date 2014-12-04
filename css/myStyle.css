@@ -65,4 +65,10 @@ header h4 {
 h1.welcome {
 	font-family:'cfspaceship', sans-serif;
 	font-size:10rem;
+=======
+
+embed{
+	position: fixed;
+	width: 1000px;
+	height: 469px;
 }
