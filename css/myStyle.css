@@ -44,3 +44,12 @@ body{
 	margin:0 auto;
 	width:1000px;
 }
+header.top {
+	background-color:#066;
+	padding:20px 0;
+	color:#fff;
+	margin-bottom:20px;
+}
+header h4 {
+	color:#fff !important;
+}
