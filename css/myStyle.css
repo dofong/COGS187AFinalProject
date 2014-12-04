@@ -44,3 +44,9 @@ body{
 	margin:0 auto;
 	width:1000px;
 }
+
+embed{
+	position: fixed;
+	width: 1000px;
+	height: 469px;
+}
