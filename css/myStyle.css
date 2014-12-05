@@ -83,3 +83,29 @@ embed {
 	font-family:'exoblack',sans-serif;
 	text-transform:capitalize;
 }
+.sites {
+	text-decoration:none;
+	list-style:none;
+}
+.sites h4 {
+	background: #066;
+	padding:10px;
+	text-transform:uppercase;
+	font-size:2rem;
+	font-family:'exothin',sans-serif;
+	text-align: center;
+	border:2px solid #066;
+}
+.sites h4 a {
+	color:#fff;
+	display:block;
+	height:100%;
+	width:100%;
+}
+.sites h4:hover {
+	background:#fff;
+}
+.sites h4:hover a {
+	color:#000;
+	text-decoration:none;
+}

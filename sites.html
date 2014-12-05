@@ -40,7 +40,7 @@
 	
 	<h2>Websites in the Wild</h2>
 	
-	<ul>
+	<ul class="sites">
 	  <li>
 		<h4><a href="https://www.arclightcinemas.com/">Arclight Cinemas</a></h4>
 		<p>The style of the website is classical and professional. It uses dark colors and dark background of theater curtains, the whole impression is calm and quiet. And it designed very clear "Now Playing", "Coming Soon" section that offers direct and straightforward information about the films on screen. However, despite of those somewhat elegant style, it has some flaws. First of all the navigation bar is oversimplified such that users would have a hard time figuring out what they mean. The checkout process is redundant. And the texts of all the description pages are all relatively small such that sometimes it is hard to find the links.</p>
@@ -69,5 +69,10 @@
 	
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+	$(document).ready(function() {
+		$( 'a[href^="http://"]' ).attr( 'target','_blank' );
+	});
+	</script>
   </div></body>
 </html>
