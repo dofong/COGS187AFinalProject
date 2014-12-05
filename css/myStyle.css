@@ -72,7 +72,7 @@ h1.welcome {
 embed {
 	position: fixed;
 	width: 1000px;
-	height: 469px;
+	height:70%;
 }
 .homeBody {
 	background:url(../img/frontbg.jpg);
