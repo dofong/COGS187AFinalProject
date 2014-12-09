@@ -1,0 +1,7 @@
+/* my styles */
+
+/* override page wrap */
+.row.full-width {
+  width: 100%;
+  max-width: 100%; 
+}
