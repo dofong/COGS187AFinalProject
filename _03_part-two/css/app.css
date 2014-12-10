@@ -1,7 +1,193 @@
 /* my styles */
 
+/* color strategy 
+== color1:#
+== color2:#
+== color3:#
+== color4:#
+== color5:#
+*/
+
+/* fonts */
+
+
 /* override page wrap */
 .row.full-width {
   width: 100%;
   max-width: 100%; 
+}
+.row.full-width > .row {
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+/* housekeeping */
+* {
+	box-sizing:	border-box;
+}
+
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+p {
+
+}
+li>a {
+	display:block;
+	height:100%;
+	width:100%;
+	padding:5px;
+}
+a:hover {
+
+}
+/* invert color adjust */
+.invert {
+	color: #ccc;
+}
+.invert a {
+	color:#fff;
+}
+.invert a:hover {
+	color:#1a1a1a;
+	background:#fff;
+}
+/* header top */
+.globalTop {
+}
+.globalTop .top-bar-section ul li >a {
+	font-size: 1rem;
+}
+.globalTopWrap {
+	background:#333;
+	background-color:#ffcc00 !important;
+	padding:20px 0 0;
+}
+.globalTopWrap>*>*>*>*>*>*, .globalTopWrap>*>* {
+	background-color: #fc0 !important;
+}
+/* header bottom */
+.globalHeader {
+	padding:30px 0 0;
+	background-color: #e6e6e6;
+}
+.logo {
+	background-image:url(../img/logos/logo.png);
+	background-repeat: no-repeat;
+	height:100px !important;
+}
+.icon-bar > * span {
+	width: 1.875rem;
+	height: 1.875rem;
+	color: #fff;
+}
+/* footer */
+.globalFooter {
+	background-color: #1a1a1a;
+	margin-top:100px;
+	padding:20px 0;
+	height:auto;
+}
+.globalFooter > .row {
+	margin:10px auto !important;
+	padding:10px 0;
+}
+.footerNav * {
+	text-decoration: none;
+	list-style-type: none;
+}
+.footerNav ul {
+	float:left;
+	margin:0px;
+	width:18%;
+	margin-right:2%;
+}
+.footerNav h4 {
+	font-size:1rem;
+	color:#fc0;
+	border-bottom:1px solid #fc0;
+}
+.socialMedia {
+	padding:none;
+	margin-top:-15px;
+}
+.socialMedia ul, .globalFooter ul {
+	list-style-type: none;
+}
+.socialMedia li {
+	width:33%;
+	height:100px;
+	float:left;
+	text-align: center;
+	background: #000;
+}
+.socialMedia li span {
+	margin-top:20%;
+}
+/* testing bed */
+.column {
+	height:100%;
+}
+.topSpace {
+	padding-top:5px;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background: #fc0 !important;
+}
+.topSearch {
+	float:right;
+}
+.wrap {
+	margin:0 auto;
+	width:1000px;
+}
+.globalHeader nav.top-bar {
+	background: none;
+}
+.topSearch>form {
+	background: blue;
+}
+.topSearch>form>*{
+	float:left;
+	height:45px;
+}
+.topSearch>form>input:nth-child(1) {
+	width:80%;
+}
+.topSearch>form>input:nth-child(2) {
+	width:18%;
+	margin-left:2%;
+}
+.breadcrumbs {
+	margin-top:10px;
+	border:none;
+	border-radius:0;
+	border-bottom:1px dotted #fc0;
+	background: none !important;
+}
+.breadcrumbs a {
+	color: #fc0;
+}
+.login {
+	text-align: right;
+}
+.button {
+	background-color: #333 !important;
+}
+.button:hover {
+	background-color:#fff !important;
+	color:#000;
 }

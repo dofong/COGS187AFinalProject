@@ -16,16 +16,165 @@
   </head>
   <body>
     <!-- topbar -->
-    <header class="row full-width globalTop">
-    </header>
+    <header class="globalTopWrap"><div class="wrap row">
+        <nav class="top-bar globalTop column small-9" data-topbar role="navigation">
+            <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul>
+              <li class="has-dropdown">
+                <a href="#"><span class="fa fa-money"></span>
+                     Buy</a>
+                <ul class="dropdown">
+                  <li><a href="#">First link in dropdown</a></li>
+                  <li class="active"><a href="#">Active link in dropdown</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#"><span class="fa fa-film"></span>
+                     Movies</a>
+                <ul class="dropdown">
+                  <li><a href="#">First link in dropdown</a></li>
+                  <li class="active"><a href="#">Active link in dropdown</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#"><span class="fa fa-newspaper-o"></span>
+                     Special Events</a>
+                <ul class="dropdown">
+                  <li><a href="#">First link in dropdown</a></li>
+                  <li class="active"><a href="#">Active link in dropdown</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#"><span class="fa fa-info-circle"></span>
+                     Information</a>
+                <ul class="dropdown">
+                  <li><a href="#">First link in dropdown</a></li>
+                  <li class="active"><a href="#">Active link in dropdown</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#"><span class="fa fa-users"></span>
+                     Membership</a>
+                <ul class="dropdown">
+                  <li><a href="#">First link in dropdown</a></li>
+                  <li class="active"><a href="#">Active link in dropdown</a></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </nav>
+        <div class="column small-3 login">
+            <a href="#" class="button [radius round]">Member Sign In!</a>
+        </div>
+    </div></header>
     <!-- topheader -->
-    <header class="row globalHeader">
+    <header class="row full-width globalHeader">
+        <div class="wrap row">
+            <div class="logo column small-3"></div>
+            <div class="column small-5">
+                <nav class="top-bar" data-topbar role="navigation">
+                  <section class="top-bar-section">
+                    <!-- Right Nav Section -->
+                    <ul class="right">
+                      <li class="active"><a href="#">Now Playing</a></li>
+                      <li><a href="#">Coming Soon</a></li>
+                      <li><a href="#">Special Showings</a></li>
+                    </ul>
+                  </section>
+                </nav>
+            </div>
+            <div class="topSearch column small-4">
+                <form>
+                    <input type="text" placeholder="Search..." required>
+                    <input type="button" value="GO">
+                </form>
+            </div>
+        </div>
     </header>
     <!-- defaultbody -->
     <div class="row full-width body">
+        <div class="row">
+            <nav class="breadcrumbs">
+              <a href="#">Home</a>
+              <a href="#">Features</a>
+              <a class="unavailable" href="#">Gene Splicing</a>
+              <a class="current" href="#">Cloning</a>
+            </nav>
+        </div>
     </div>
     <!-- globalfooter -->
-    <footer class="row full-width globalFooter">
+    <footer class="row full-width invert globalFooter">
+        <div class="row">
+            <div class="small-3 column logo"></div>
+            <div class="small-9 column footerNav">
+                <nav class="row">
+                    <ul>
+                        <li><h4>Movies</h4></li>
+                        <li><a href="#">Now Showing</a></li>
+                        <li><a href="#">Coming Soon</a></li>
+                        <li><a href="#">Ratings Guide</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                    <ul>
+                        <li><h4>Specials Events</h4></li>
+                        <li><a href="#">Specials Events</a></li>
+                        <li><a href="#">Facility Rental</a></li>
+                    </ul>
+                    <ul>
+                        <li><h4>News</h4></li>
+                        <li><a href="#">Cinema News</a></li>
+                        <li><a href="#">Movie News</a></li>
+                        <li><a href="#">Email Updates</a></li>
+                    </ul>
+                    <ul>
+                        <li><h4>About Us</h4></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Our Story</a></li>
+                    </ul>
+                    <ul>
+                        <li><h4>Membership</h4></li>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Benefits</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-3 column topSpace"><span class="fa fa-copyright"></span> 2014 San Diego Cinema
+            <address>
+                9500 Gilman Dr.<br>
+                San Diego, CA, 92193<br>
+            </address>
+                
+            </div>
+            <div class="small-3 column">
+                <nav>
+                    <ul>
+                        <li><a href="#"><span class="fa fa-phone-square"></span> +1-800-222-8888</a></li>
+                        <li><a href="#"><span class="fa fa-envelope"></span> info@sdcinema.com</a></li>
+                        <li><a href="#"><span class="fa fa-question-circle"></span> Site Map</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="small-6 column socialMedia">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href=""><span class="fa fa-facebook fa-2x"></span></a>
+                        </li>
+                        <li>
+                            <a href=""><span class="fa fa-twitter fa-2x"></span></a>
+                        </li>
+                        <li>
+                            <a href=""><span class="fa fa-linkedin fa-2x"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </footer>
     <!-- scripts -->
     <script src="js/vendor/jquery.js"></script>
