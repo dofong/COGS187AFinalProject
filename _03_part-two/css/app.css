@@ -196,9 +196,11 @@ a:hover {
 }
 .button {
 	background-color: #333 !important;
+	border:2px solid #333;
 }
 .button:hover {
 	background-color:#fff !important;
+	border:2px solid #fc0;
 	color:#000;
 }
 input[type="button"] {
@@ -221,4 +223,11 @@ input[type="button"]:active {
 }
 .globalHeader .top-bar-section ul {
 	box-shadow: 0 0 5px #ccc;
+}
+.small-block-grid-5 li {
+	background-image:url(../img/patterns/cream.png);
+	padding:0px;
+	border-radius:5px;
+	box-shadow: 0 0 4px #ccc;
+	text-align: center;
 }
