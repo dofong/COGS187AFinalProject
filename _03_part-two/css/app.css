@@ -82,11 +82,21 @@ a:hover {
 /* header bottom */
 .globalHeader {
 	padding:30px 0 0;
-	background-color: #e6e6e6;
+	background-image:url(../img/patterns/cream.png);
+	background-repeat: repeat;
 }
 .logo {
 	background-image:url(../img/logos/logo.png);
 	background-repeat: no-repeat;
+	background-size:contain;
+	height:100px !important;
+	margin-top:-20px;
+	margin-bottom:20px;
+}
+.logo-white {
+	background-image:url(../img/logos/logo-white.png);
+	background-repeat: no-repeat;
+	background-size:contain;
 	height:100px !important;
 }
 .icon-bar > * span {
@@ -148,7 +158,7 @@ a:hover {
 	background: #fc0 !important;
 }
 .topSearch {
-	float:right;
+	float:left;
 }
 .wrap {
 	margin:0 auto;
@@ -190,4 +200,25 @@ a:hover {
 .button:hover {
 	background-color:#fff !important;
 	color:#000;
+}
+input[type="button"] {
+	border-radius:none;
+	background-color: #fff;
+	border:none;
+	box-shadow: 0 0 5px #ccc;
+}
+input[type="button"]:hover {
+	background-color: #333;
+	color:#fff;
+	transition:0.2s;
+	box-shadow: none;
+}
+input[type="button"]:active {
+	background-color: #fc0;
+	color:#fff;
+	transition:0;
+	box-shadow: none;
+}
+.globalHeader .top-bar-section ul {
+	box-shadow: 0 0 5px #ccc;
 }
