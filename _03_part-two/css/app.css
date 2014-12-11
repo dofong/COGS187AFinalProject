@@ -37,6 +37,7 @@ h3 {
 	color:#fc0;
 	text-transform: uppercase;
 	text-shadow:0 0px 10px #ccc;
+
 }
 h4 {
 
@@ -285,4 +286,18 @@ input[type="button"]:active {
 	top:0 !important;
 	height:40px;
 	text-align: center;
+}
+body>div.full-width:first-of-type {
+	margin-top:30px;
+}
+.pricing-table {
+	padding:20px;
+	border-top:solid 3px #fc0;
+}
+.wireframe-link .button {
+	background: #900 !important;
+	border:none;
+}
+.wireframe-link .button:hover {
+	background: #fff !important;
 }
