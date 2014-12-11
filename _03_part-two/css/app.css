@@ -91,15 +91,17 @@ a:hover {
 	background-image:url(../img/logos/logo.png);
 	background-repeat: no-repeat;
 	background-size:contain;
-	height:100px !important;
-	margin-top:-20px;
-	margin-bottom:20px;
+	height:200px !important;
+	width:300px !important;
+	margin-top:-40px;
+	margin-bottom:-50px;
+	margin-left:-50px;
 }
 .logo-white {
 	background-image:url(../img/logos/logo-white.png);
 	background-repeat: no-repeat;
 	background-size:contain;
-	height:100px !important;
+	height:80px !important;
 }
 .icon-bar > * span {
 	width: 1.875rem;
@@ -160,7 +162,10 @@ a:hover {
 	background: #fc0 !important;
 }
 .topSearch {
-	float:left;
+	right:0;
+}
+.login {
+	text-align: right;
 }
 .wrap {
 	margin:0 auto;
@@ -169,17 +174,25 @@ a:hover {
 .globalHeader nav.top-bar {
 	background: none;
 }
-.topSearch>form {
-	background: blue;
-}
 .topSearch>form>*{
 	float:left;
-	height:45px;
+	height:55px;
 }
 .topSearch>form>input:nth-child(1) {
 	width:80%;
 }
 .topSearch>form>input:nth-child(2) {
+	width:18%;
+	margin-left:2%;
+}
+.movieSearch>form>*{
+	float:left;
+	height:42px;
+}
+.movieSearch>form>input:nth-child(1) {
+	width:80%;
+}
+.movieSearch>form>input:nth-child(2) {
 	width:18%;
 	margin-left:2%;
 }
@@ -192,9 +205,6 @@ a:hover {
 }
 .breadcrumbs a {
 	color: #fc0;
-}
-.login {
-	text-align: right;
 }
 .button {
 	background-color: #333 !important;
@@ -223,8 +233,13 @@ input[type="button"]:active {
 	transition:0;
 	box-shadow: none;
 }
-.globalHeader .top-bar-section ul {
+.top-bar {
+	background: none;
+	margin-bottom:10px;
+}
+.top-bar ul {
 	box-shadow: 0 0 5px #ccc;
+
 }
 .small-block-grid-5 {
 	border-top:1px solid #fc0;
@@ -241,9 +256,33 @@ input[type="button"]:active {
 	height:400px;
 	margin-bottom:40px;
 }
-.feature div {
-	background-color: #333;
-}
 .dropdown {
 	border:1px solid #fc0;
+}
+.movie-grid li a:first-child {
+	height:300px;
+}
+.movie-grid li a:first-child img {
+	width:85%;
+	z-index:998;
+}
+.movie-grid li a:first-child:hover img {
+	width:100%;
+	transition:0.2s;
+}
+.feature {
+	padding-top: 40px !important;
+	margin-bottom:100px;
+}
+.example-orbit {
+	height:345px !important;
+}
+.example-orbit img {
+	z-index: 1;
+}
+.example-orbit .orbit-caption {
+	background: blue;
+	top:0 !important;
+	height:40px;
+	text-align: center;
 }
