@@ -17,30 +17,21 @@
     <script src="js/vendor/modernizr.js"></script>
 
   <body>
+    <!-- headers -->
     <header class="row full-width globalHeader">
       <div class="wrap row">
-          <a href="index.html"><div class="logo column small-3"></div></a>
+          <a href="index.html" class="small-5 column"><div class="logo"></div></a>
           <div class="topSearch column small-4">
               <form>
                   <input type="text" placeholder="Search..." required>
                   <input type="button" value="GO">
               </form>
           </div>
-          <div class="column small-5">
-              <nav class="top-bar" data-topbar role="navigation">
-                <section class="top-bar-section">
-                  <!-- Right Nav Section -->
-                  <ul class="right">
-                    <li class="active"><a href="#">Now Playing</a></li>
-                    <li><a href="#">Coming Soon</a></li>
-                    <li><a href="#">Special Showings</a></li>
-                  </ul>
-                </section>
-              </nav>
+          <div class="column small-3 login">
+            <a href="login.html" class="button [radius round]">Member Sign In!</a>
           </div>
       </div>
     </header>
-
     <header class="globalTopWrap"><div class="wrap row">
         <nav class="top-bar globalTop column small-9" data-topbar role="navigation">
             <section class="top-bar-section">
@@ -96,9 +87,7 @@
             </ul>
           </section>
         </nav>
-        <div class="column small-3 login">
-            <a href="#" class="button [radius round]">Member Sign In!</a>
-        </div>
+       
     </div></header>
     
     <!-- defaultbody -->
@@ -107,18 +96,18 @@
             <nav class="breadcrumbs">
               <a href="index.html">Home</a>
               <a class="current" href="#">Wire-Frames</a>
-              <a class="unavailable" href="#">Frontpage (Guest)</a>
+              <a class="unavailable" href="#">Frontpage (Logged-in)</a>
             </nav>
 			
 			<div class="row">
 				<div class="small-3 columns">
-					<br/><a href="#">Frontpage (Guest)</a>
-					<br/><a href="#">Frontpage (Logged-in)</a>
-					<br/><a href="#">Default Movie Page</a>
-					<br/><a href="#">Buy Ticket Page</a>
+					<br/><a href="wire_index.html">Frontpage (Guest)</a>
+					<br/><a href="wire_index_login.html">Frontpage (Logged-in)</a>
+					<br/><a href="wire_movie.html">Default Movie Page</a>
+					<br/><a href="wire_ticket.html">Buy Ticket Page</a>
 				</div>
 				<div class="small-9 columns">
-					<img src="img/wireframes/wire_index.png" alt="index.html"></img>
+					<img src="img/wireframes/wire_index_login.png" alt="index.html"></img>
 				</div>
 			</div>
 			
