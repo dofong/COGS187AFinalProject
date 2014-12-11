@@ -34,7 +34,9 @@ h2 {
 
 }
 h3 {
-
+	color:#fc0;
+	text-transform: uppercase;
+	text-shadow:0 0px 10px #ccc;
 }
 h4 {
 
@@ -224,10 +226,24 @@ input[type="button"]:active {
 .globalHeader .top-bar-section ul {
 	box-shadow: 0 0 5px #ccc;
 }
+.small-block-grid-5 {
+	border-top:1px solid #fc0;
+}
 .small-block-grid-5 li {
 	background-image:url(../img/patterns/cream.png);
 	padding:0px;
 	border-radius:5px;
 	box-shadow: 0 0 4px #ccc;
 	text-align: center;
+	margin:20px 0;
+}
+.feature {
+	height:400px;
+	margin-bottom:40px;
+}
+.feature div {
+	background-color: #333;
+}
+.dropdown {
+	border:1px solid #fc0;
 }
