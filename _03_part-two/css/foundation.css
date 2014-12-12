@@ -1109,6 +1109,9 @@ button, .button {
   border-color: #007095;
   color: white;
   transition: background-color 300ms ease-out; }
+  #smallButton{
+  margin: 0 0 0rem;
+  }
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #007095; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -5331,6 +5334,7 @@ table {
     padding: 0.5625rem 0.625rem;
     font-size: 0.875rem;
     color: #222222;
+	vertical-align: middle;
     text-align: left; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #f9f9f9; }

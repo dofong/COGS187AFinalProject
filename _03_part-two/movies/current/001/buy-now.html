@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="../../../css/nowplaying.css">
     <link rel="stylesheet" href="../../../css/comingsoon.css">
     <link rel="stylesheet" href="../../../css/specialshowings.css">
-    <!-- scripts -->
-    <script src="js/vendor/modernizr.js"></script>
-
+	<link rel="stylesheet" href="../../../css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+	<!-- script -->
+	<script src="../../../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../../js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../../js/vendor/modernizr.js"></script>
+  </head>
   <body>
     <!-- headers -->
     <header class="row full-width globalHeader">
@@ -102,13 +105,96 @@
             </nav>
 			
 			<!-- content starts here -->
+			<!-- content starts here -->
 			<div class="row">
-				<div class="small-3 columns">
+				<div class="small-4 columns">
+					<h3>Dumb And Dumber To</h3>
+					<img src="poster.jpg" alt="error"/>
 				</div>
-				<div class="small-9 columns">
+				<div class="small-8 columns">
+					<h3>Buy Ticket</h3>
+					<table border="0">
+					  <tr>
+						<td>Today</td>
+						<td>0700-0900</td> 
+						<td>Member: $15<br/>Non-member: $17</td>
+						<td>House I<br/><b>IMAX</b></td>
+						<td><a href="buy-now-time.html"><div class="button" id="smallButton">Buy Now</div></a></td>
+					  </tr>
+					  <tr>
+						<td>Monday (12/23)</td>
+						<td>0700-0900</td> 
+						<td>Member: $15<br/>Non-member: $17</td>
+						<td>House III<br/></td>
+						<td><a href="buy-now-time.html"><div class="button" id="smallButton">Buy Now</div></a></td>
+					  </tr>
+					  <tr>
+						<td>Tuesday (12/23)</td>
+						<td>0700-0900</td> 
+						<td>Member: $15<br/>Non-member: $17</td>
+						<td>House II<br/><b>IMAX</b></td>
+						<td><a href="buy-now-time.html"><div class="button" id="smallButton">Buy Now</div></a></td>
+					  </tr>
+					  <tr>
+						<td>Tuesday (12/23)</td>
+						<td>0700-0900</td> 
+						<td>Member: $15<br/>Non-member: $17</td>
+						<td>House I<br/><b>IMAX</b></td>
+						<td><a href="buy-now-time.html"><div class="button" id="smallButton">Buy Now</div></a></td>
+					  </tr>
+					  <tr>
+						<td>Wednesday (12/24)</td>
+						<td>0700-0900</td> 
+						<td>Member: $15<br/>Non-member: $17</td>
+						<td>House II<br/><b>IMAX</b></td>
+						<td><a href="buy-now-time.html"><div class="button" id="smallButton">Buy Now</div></a></td>
+					  </tr>
+					  <tr>
+						<td>Wednesday (12/24)</td>
+						<td>0700-0900</h6</td> 
+						<td>Member: $15<br/>Non-member: $17</td>
+						<td>House I<br/><b>IMAX</b></td>
+						<td><a href="buy-now-time.html"><div class="button" id="smallButton">Buy Now</div></a></td>
+					  </tr>
+					</table>
 				</div>
 			</div>
+			
+			
+			
+			<div class="row">
+			  <br/><h3>You might also be interested in...</h3>
+			  <ul class="small-block-grid-5 movie-grid">
+			  <li>
+				<a href="../../../movies/current/004/film-now.html"><img src="../../../movies/current/004/poster.jpg" alt=""></a>
+				<h5>Interstellar</h5>
+				<a href="../../../movies/current/004/buy-now.html"><div class="button">Buy Now</div></a>
+			  </li>
+			  <li>
+				<a href="../../../movies/current/007/film-page.html"><img src="../../../movies/current/007/poster.jpg" alt="">
+				</a>
+				<h5>Dumb and Dumber To</h5>
+				<a href="../../../movies/current/007/buy-now.html"><div class="button">Buy Now</div></a>
+			  </li>
+			  <li>
+				<a href="../../../movies/current/009/film-now.html"><img src="../../../movies/current/009/poster.jpg" alt=""></a>
+				<h5>Interstellar</h5>
+				<a href="../../../movies/current/009/buy-now.html"><div class="button">Buy Now</div></a>
+			  </li>
+			  <li>
+				<a href="../../../movies/current/010/film-now.html"><img src="../../../movies/current/010/poster.jpg" alt=""></a>
+				<h5>Interstellar</h5>
+				<a href="../../../movies/current/010/buy-now.html"><div class="button">Buy Now</div></a>
+			  </li>
+			  <li>
+				<a href="../../../movies/current/014/film-now.html"><img src="../../../movies/current/014/poster.jpg" alt=""></a>
+				<h5>Interstellar</h5>
+				<a href="../../../movies/current/014/buy-now.html"><div class="button">Buy Now</div></a>
+			  </li>
+			  </ul>
+			</div>
 			<!-- content ends here -->
+			
 			
 		</div>
     </div>
@@ -188,8 +274,8 @@
 </footer>
 
     <!-- scripts -->
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+    <script src="../../../js/vendor/jquery.js"></script>
+    <script src="../../../js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>
@@ -199,5 +285,6 @@
         $( 'a[href^="https://"]' ).attr( 'target','_blank' );
       });
     </script>
+	
   </body>
 </html>
