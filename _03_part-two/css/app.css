@@ -99,10 +99,10 @@ a:hover {
 	margin-left:-50px;
 }
 .logo-white {
-	background-image:url(../img/logos/logo-white.png);
+	background-image:url(../img/logos/logo_footer.png);
 	background-repeat: no-repeat;
 	background-size:contain;
-	height:80px !important;
+	height:100px !important;
 }
 .icon-bar > * span {
 	width: 1.875rem;
@@ -288,7 +288,7 @@ input[type="button"]:active {
 	text-align: center;
 }
 body>div.full-width:first-of-type {
-	margin-top:30px;
+	margin-top:-40px;
 }
 .pricing-table {
 	padding:20px;
