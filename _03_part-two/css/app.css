@@ -326,7 +326,6 @@ body>div.full-width:first-of-type {
 }
 .contact-info p {
 	font-size: 1.5rem;
-	font-family: "Garamond","Times New Roman",serif;
 }
 .sm-contact {
 	margin:10px 20px 40px;
@@ -371,7 +370,6 @@ body>div.full-width:first-of-type {
 }
 .dontworry h1 {
 	color:#fff;
-	font-family: "Garamond","Times New Roman",serif;
 	font-size: 4rem;
 	padding:100px;
 }
