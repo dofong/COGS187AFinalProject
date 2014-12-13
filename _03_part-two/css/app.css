@@ -43,7 +43,8 @@ h4 {
 
 }
 h5 {
-
+    position: relative;
+    z-index: 800;
 }
 p {
 
@@ -265,7 +266,7 @@ input[type="button"]:active {
 }
 .movie-grid li a:first-child img {
 	width:85%;
-	z-index:998;
+	z-index:900;
 }
 .movie-grid li a:first-child:hover img {
 	width:100%;
@@ -273,7 +274,7 @@ input[type="button"]:active {
 }
 .feature {
 	padding-top: 40px !important;
-	margin-bottom:240px;
+	margin-bottom:220px;
 }
 .example-orbit {
 	height:345px !important;
