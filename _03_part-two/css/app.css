@@ -373,3 +373,20 @@ body>div.full-width:first-of-type {
 	font-size: 4rem;
 	padding:100px;
 }
+.jobs h3 {
+	float:left;
+}
+.jobs .button {
+	float:right;
+	margin-left:30px;
+}
+.jobs-aside {
+	padding:0 50px;
+}
+.jobs-aside aside {
+	background: #333;
+	color:#ccc;
+	padding:20px;
+	border-radius:15px;
+	margin-bottom:30px;
+}
