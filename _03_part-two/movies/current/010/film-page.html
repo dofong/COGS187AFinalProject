@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dumb and Dumber To - Estrella Theater</title>
+    <title>NightCrawler - Estrella Theater</title>
 
     <link rel="import" href="../../../html/footer.html" id="footer">
     <!-- styles -->
@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="../../../css/specialshowings.css">
 	<link rel="stylesheet" href="../../../css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
 	<!-- script -->
-	<script src="../../../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../../js/vendor/jquery.js"></script>
 	<script src="../../../js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../../../js/vendor/modernizr.js"></script>
+    <script src="../../../js/foundation.min.js"></script>
+	
   </head>
   <body>
     <!-- headers -->
@@ -94,21 +96,19 @@
        
     </div></header>
 
-		<div class="row full-width body">
+	<div class="row full-width body">
         <div class="row">
             <nav class="breadcrumbs">
               <a href="../../../index.html">Home</a>
 			  <a class="unavailable" href="#">Movies</a>
 			  <a href="../../../now-showing.html">Now Showing</a>
-			  <a href="film-page.html">Dumb and Dumber To</a>
-              <a class="current" href="#">Buy Now</a>
+              <a class="current" href="#">NightCrawler</a>
             </nav>
 			
 			<!-- content starts here -->
-			<!-- content starts here -->
 			<div class="row">
 				<div class="small-4 columns">
-					<h3>Dumb And Dumber To</h3>
+					<h3>NightCrawler</h3>
 					<img src="poster.jpg" alt="error"/>
 				</div>
 				<div class="small-8 columns">
@@ -159,42 +159,61 @@
 					</table>
 				</div>
 			</div>
-			
-			
+
+			<div class="row">
+				<div class="small-4 columns">
+					<h3>Information</h3>
+					<dl class="clearfix">
+		                <dt>Running Time</dt><dd>1 hr 57 min</dd>
+		            		                <dt>Genre</dt><dd itemprop="genre">Suspense</dd>
+		            		                <dt>Director</dt><dd itemprop="director">Dan Gilroy</dd>
+		            		                <dt>Cast</dt><dd itemprop="actors">Jake Gyllenhaal, Rene Russo</dd>
+		            		                <dt>Release Date</dt><dd>October 31, 2014</dd>
+		        </dl>
+				</div>
+				<div class="small-8 columns">
+					<h3>SYNOPSIS</h3>
+					<p itemprop="description">
+		                NIGHTCRAWLER is a pulse-pounding thriller set in the nocturnal underbelly of contemporary Los Angeles. Jake Gyllenhaal stars as Lou Bloom, a driven young man desperate for work who discovers the high-speed world of L.A. crime journalism. Finding a group of freelance camera crews who film crashes, fires, murder and other mayhem, Lou muscles into the cut-throat, dangerous realm of nightcrawling -- where each police siren wail equals a possible windfall and victims are converted into dollars and cents. Aided by Rene Russo as Nina, a veteran of the blood-sport that is local TV news, Lou blurs the line between observer and participant to become the star of his own story.
+					</p>
+					<img src="../../../img/mpaa/Rated_r.gif" alt="error"><br/><br/>
+					<a href="https://www.youtube.com/watch?v=u1uP_8VJkDQ" rel="prettyPhoto"><div class="button" id="smallButton">Play Trailer</div></a>
+					
+				</div>
+			</div>
 			
 			<div class="row">
 			  <h3>You might also be interested in...</h3>
 			  <ul class="small-block-grid-5 movie-grid">
 			  <li>
-				<a href="../../../movies/current/005/film-page.html"><img src="../../../movies/current/005/poster.jpg" alt=""></a>
-				<h5>Horrible Bo</h5>
-				<a href="../../../movies/current/005/buy-now.html"><div class="button">Buy Now</div></a>
+				<a href="../../../movies/current/004/film-page.html"><img src="../../../movies/current/004/poster.jpg" alt=""></a>
+				<h5>Gone Girl</h5>
+				<a href="../../../movies/current/004/buy-now.html"><div class="button">Buy Now</div></a>
 			  </li>
 			  <li>
-				<a href="../../../movies/current/007/film-page.html"><img src="../../../movies/current/007/poster.jpg" alt="">
-				</a>
-				<h5>Big Hero 6</h5>
-				<a href="../../../movies/current/007/buy-now.html"><div class="button">Buy Now</div></a>
+				<a href="../../../movies/current/017/film-page.html"><img src="../../../movies/current/017/poster.jpg" alt=""></a>
+				<h5>The Pyramid</h5>
+				<a href="../../../movies/current/017/buy-now.html"><div class="button">Buy Now</div></a>
 			  </li>
 			  <li>
-				<a href="../../../movies/current/014/film-page.html"><img src="../../../movies/current/014/poster.jpg" alt=""></a>
-				<h5>St. Vincent</h5>
-				<a href="../../../movies/current/014/buy-now.html"><div class="button">Buy Now</div></a>
+				<a href="../../../movies/current/006/film-page.html"><img src="../../../movies/current/006/poster.jpg" alt=""></a>
+				<h5>Interstellar</h5>
+				<a href="../../../movies/current/006/buy-now.html"><div class="button">Buy Now</div></a>
 			  </li>
 			  <li>
-				<a href="../../../movies/current/015/film-page.html"><img src="../../../movies/current/015/poster.jpg" alt=""></a>
-				<h5>Laggies</h5>
-				<a href="../../../movies/current/015/buy-now.html"><div class="button">Buy Now</div></a>
+				<a href="../../../movies/current/002/film-page.html"><img src="../../../movies/current/002/poster.jpg" alt=""></a>
+				<h5>Hunger Game 3</h5>
+				<a href="../../../movies/current/002/buy-now.html"><div class="button">Buy Now</div></a>
 			  </li>
 			  <li>
-				<a href="../../../movies/current/016/film-page.html"><img src="../../../movies/current/016/poster.jpg" alt=""></a>
-				<h5>Wild</h5>
-				<a href="../../../movies/current/016/buy-now.html"><div class="button">Buy Now</div></a>
+				<a href="../../../movies/current/012/film-page.html"><img src="../../../movies/current/012/poster.jpg" alt=""></a>
+				<h5>The Equalizer</h5>
+				<a href="../../../movies/current/012/buy-now.html"><div class="button">Buy Now</div></a>
 			  </li>
 			  </ul>
 			</div>
-			<!-- content ends here -->
 			
+			<!-- content ends here -->
 			
 		</div>
     </div>
@@ -259,32 +278,36 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="../../../https://www.facebook.com/VictoryTheater"><span class="fa fa-facebook fa-2x"></span></a>
+                        <a href="https://www.facebook.com/VictoryTheater"><span class="fa fa-facebook fa-2x"></span></a>
                     </li>
                     <li>
-                        <a href="../../../https://twitter.com/regalmovies"><span class="fa fa-twitter fa-2x"></span></a>
+                        <a href="https://twitter.com/regalmovies"><span class="fa fa-twitter fa-2x"></span></a>
                     </li>
                     <li>
-                        <a href="../../../https://www.linkedin.com/company/regal-entertainment-group"><span class="fa fa-linkedin fa-2x"></span></a>
+                        <a href="https://www.linkedin.com/company/regal-entertainment-group"><span class="fa fa-linkedin fa-2x"></span></a>
                     </li>
                 </ul>
             </nav>
         </div>
     </div>
-</footer>
+	</footer>
 
+	
+	
     <!-- scripts -->
-    <script src="../../../js/vendor/jquery.js"></script>
-    <script src="../../../js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-    <script>
-      $(document).ready(function() {
-        $( 'a[href^="http://"]' ).attr( 'target','_blank' );
-        $( 'a[href^="https://"]' ).attr( 'target','_blank' );
-      });
+	<script>
+	  $(document).foundation();
+	</script>
+	<script type="text/javascript" charset="utf-8">
+	  $(document).ready(function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto();
+	  });
+	</script>
+
     </script>
 	
+	
+	
+
   </body>
 </html>
