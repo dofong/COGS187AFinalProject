@@ -350,3 +350,28 @@ body>div.full-width:first-of-type {
 	color: #fff;
 	transition:0.2s;
 }
+.subscribe-form {
+
+}
+.subscribe-form>input {
+	display:inline-block;
+	height:43px;
+}
+.subscribe-form input:nth-child(1) {
+	width:70%;
+}
+.subscribe-form input:nth-child(2) {
+	width:28%;
+}
+.dontworry {
+	height:500px;
+	background: #fc0;
+	text-align: center;
+
+}
+.dontworry h1 {
+	color:#fff;
+	font-family: "Garamond","Times New Roman",serif;
+	font-size: 4rem;
+	padding:100px;
+}
